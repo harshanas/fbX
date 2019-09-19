@@ -1,0 +1,20 @@
+{
+    "manifest_version": 2, 
+    "name": "fbX", 
+    "description": "Allows you to hide various components that distract your attention in Facebook Homepage",
+    "version": "1", 
+    "author": "Harshana Serasinghe",
+    
+    "permissions" :[
+        "activeTab"
+    ],
+    "content_scripts": [
+        {
+            "matches" : ["https://*.facebook.com/*"],
+            "js" :["app.js"]
+        }
+    ],
+    "browser_action": {
+        "default_title": "fbX"
+    }
+}

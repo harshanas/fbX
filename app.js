@@ -1,0 +1,1 @@
+document.getElementById("stories_pagelet_below_composer").style.display = "none";
